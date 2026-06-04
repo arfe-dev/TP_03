@@ -1,8 +1,13 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<h1>Ahorcado Info</h1>
+<p>En este ahorcado vas a tener que adivinar la palabra con un máximo de 10 intentos.</p>
+<h3>Adivina la palabra:</h3>
+<div>
+    <h2 id = "palabraOculta">   </h2>
+    <h4 id = "intentosRestantes">   </h4>
+    <p>Ingresa la Letra:</p>
+    <input type="text" id="letra" placeholder="letra"><br>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <button onclick="enviarLetra()">Enviar letra</button>
+
+    <div id="resultado"></div>
 </div>
