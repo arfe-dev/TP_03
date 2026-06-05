@@ -5,7 +5,7 @@ public class PalabrasAhorcado{
 
     public PalabrasAhorcado(){
         palabras = new List<string>(){
-            "COMPUTADORA", "LABORATORIO", "PROCESADOR", "PROGRAMACION", "GABINETE", "PROFESORES", "ESTUDIANTE", "VISUALSTUDIO"
+            "COMPUTADORA", "LABORATORIO", "PROCESADOR", "PROGRAMACION", "GABINETE", "PROFESORES", "ESTUDIANTE", "VISUALSTUDIO", "ARGENTINA", "CABLEADO"
         };
     }
 
