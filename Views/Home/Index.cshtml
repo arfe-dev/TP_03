@@ -3,11 +3,13 @@
 <h3>Adivina la palabra:</h3>
 <div>
     <h2 id = "palabraOculta">   </h2>
-    <h4 id = "intentosRestantes">   </h4>
+    <h4 id = "intentosRestantes">  Intentos Restantes: 10 </h4>
     <p>Ingresa la Letra:</p>
-    <input type="text" id="letra" placeholder="letra"><br>
+    
+    <input type="hidden" id="palabra" placeholder="@ViewBag.Palabra"><br>
+    <input type="text" id="letra" placeholder="ingresaLetra"><br>
 
     <button onclick="enviarLetra()">Enviar letra</button>
 
-    <div id="resultado"></div>
+    <div id="resultado"></div> 
 </div>
