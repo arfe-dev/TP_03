@@ -61,9 +61,9 @@ p{
 
 .div1{
   padding: 1%;
-  margin-left: 30%;
+  margin-left: 26%;
   margin-bottom: -3%;
-  width: 40%;
+  width: 50%;
   background-color: rgb(255, 248, 230);
   border-radius: 15px;
   border: 2px solid rgb(225, 215, 190);
@@ -74,6 +74,19 @@ section div h2{
   font-size: 300%;
   color: rgb(74, 52, 35);
 }
+
+.intent{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 400%;
+  color: rgb(74, 52, 35);
+}
+
+h2{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 section h4{
   margin-top: 50px;
