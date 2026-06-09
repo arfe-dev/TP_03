@@ -40,7 +40,7 @@ function ArriesgarLetra()
     }
 
     // Si no se encontró, pierde un intento
-    if(!encontrada)
+    if(encontrada == false && intentos > 0)
     {
         intentos--;
         document.getElementById("intentos").innerHTML = intentos;
