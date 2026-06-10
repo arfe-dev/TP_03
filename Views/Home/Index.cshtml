@@ -1,9 +1,9 @@
 ﻿<h1>Ahorcado Info</h1>
-<p>En este ahorcado vas a tener que adivinar la palabra con un máximo de 10 intentos.</p>
+<p>¡En este ahorcado vas a tener que adivinar la palabra con un máximo de 10 intentos!</p>
 
 <section>
     <div class="div1">
-        <h2 id = "palabraOculta">__________</h2>
+        <h2 id = "palabraOculta"></h2>
     </div>
     
     <h4>Intentos Restantes:</h4>
@@ -12,11 +12,9 @@
     <h4 id="mensaje"></h4>
 
     <p>Ingresa la Letra:</p>
-    <input type="text" id="letra" placeholder="Ingrese la letra"><br>
-    <input type="hidden" id="palabra" value="@ViewBag.Palabra"><br>
+    <input type="text" id="letra" maxlength="1" placeholder="Ingrese la letra">
+    <input type="hidden" id="palabra" value="@ViewBag.Palabra">
 
     <button onclick="ArriesgarLetra()">Arriesgar letra</button>
-
-    <div id="resultado"></div> 
 </section>
 <script src="site.js"></script>
