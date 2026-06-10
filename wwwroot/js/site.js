@@ -7,7 +7,7 @@ for(let i = 0; i < palabra.length; i++){
     palabraOculta[i]="_";
 }
 
-document.getElementById("palabraOculta").innerHTML = palabraOculta.join(" ");
+document.getElementById("palabraOculta").innerHTML = palabraOculta;
 
 function ArriesgarLetra()
 {
@@ -33,7 +33,7 @@ function ArriesgarLetra()
     }
 
     // Actualizar palabra mostrada
-    document.getElementById("palabraOculta").innerHTML = palabraOculta.join(" ");
+    document.getElementById("palabraOculta").innerHTML = palabraOculta;
 
     // Limpiar input
     document.getElementById("letra").value = "";
