@@ -130,6 +130,7 @@ button{
   background-color: rgb(62,125,88);
   color: white;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+  margin-top: 2%;
 }
 
 button:hover{
