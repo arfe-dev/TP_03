@@ -41,8 +41,17 @@ function ArriesgarLetra()
     // Mensaje final
     if(!palabraOculta.includes("_")){
         document.getElementById("mensaje").innerHTML = "¡GANASTE!";
+        EliminarBoton();
     }
     if(intentos <= 0){
         document.getElementById("mensaje").innerHTML = "PERDISTE. La palabra era: " + palabra;
+        EliminarBoton();
     }
+    
+}
+
+function  EliminarBoton(){
+    document.getElementById("boton").innerHTML = " ";
+    document.getElementById("boton").style.padding = "0%";
+    document.getElementById("boton").style.margin = "0%";
 }
